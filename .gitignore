@@ -9,3 +9,16 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+#java specific
+*.class
+#netbeans ignore personal stuff nbproyect/
+##generic files to ignore
+*~
+*.lock
++.DS_Store
+*.swp
+*.out
+#Packege Files#
+*.jar
+*.war
+*.ear
